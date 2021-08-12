@@ -1,0 +1,106 @@
+
+*{padding: 0;
+	margin: 0;
+
+}
+.female2{
+	padding: 0 100px;
+	background:linear-gradient(to right, rgba(255,0,0,0), rgba(25,0,0,0)),url(img/login2.png);
+	display: flex;
+	height: 100vh;
+	background-attachment: center;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+nav{
+	position: fixed;
+	width: 100%;
+	line-height: 100px;
+
+}
+nav ul{
+	float: right;
+	margin: 0;
+	padding-right: 95px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 5px 30px;
+
+
+}
+nav ul li a{
+	color: #FFC300;
+	text-decoration:none;  
+	font-size:20px;
+	font-weight: bold;
+
+
+}
+
+nav ul li a:hover{
+	color:#000;
+}
+
+
+.container{
+	margin-left: 850px;
+	margin-top: 100px;
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	background-color: black;
+}
+.container h2 {
+	color: white;
+	text-align: center;
+	margin-top: 15px;
+	margin-left:10px;
+	font-size: 50px;
+
+}
+.container input{
+	margin: 25px;
+	width: 80%;
+    margin-left: 30px;
+    
+}
+.container input[type="text"]{
+	margin-top: 100px;
+}
+.container button{
+	margin:50px;
+	width: 80%;
+    margin-left: 30px;
+
+}
+.container input[type="text"],input[type="password"]{
+	border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff ;
+}
+::-webkit-input-placeholder
+{
+    color: #fff ;
+    font-size: 20px;
+}
+.container button[type="submit"]
+{   border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    color:#000 ;
+    font-size: 20px;
+}
+.container h3{
+	color: white;
+	text-align: left;
+	margin-top: 5px;
+	margin-left:120px;
+	font-size: 20px;
+}

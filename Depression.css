@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.female5{
+	padding: 0 100px;
+	background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0)),/*url(img/HomePage3.png)*/;
+	display: flex;
+	height: 100vh;
+	background-attachment: center;
+	background-repeat: no-repeat;
+	background-position:center;
+
+}
+nav{
+	position: fixed;
+	width: 100%;
+	line-height: 100px;
+
+}
+nav ul{
+	float: right;
+	margin: 0;	padding-right: 95px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 5px 30px;
+
+
+}
+nav ul li a{
+	color: #FFC300;
+	text-decoration:none;  
+	font-size:20px;
+	font-weight: bold;
+
+
+}
+
+nav ul li a:hover{
+	color:#000;
+}
+
+
+.head1
+{
+	margin-left: 500px;
+	color: blue;
+
+}
+.head2
+{
+	margin-left: 500px;
+	color: black;
+
+}
+/*.head3{
+	margin-top: 500px;*/
+
+
+}
+.head11{
+	margin-left: 200px;
+}

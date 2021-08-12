@@ -1,0 +1,293 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.female3{
+	padding: 0 100px;
+	background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0)),url(img/HomePage12.png);
+	display: flex;
+	height: 100vh;
+	background-attachment: center;
+	background-repeat: no-repeat;
+	background-position:center;
+
+}
+nav{
+	position: fixed;
+	width: 100%;
+	line-height: 100px;
+
+}
+nav ul{
+	float: right;
+	margin: 0;
+	padding-right: 95px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 5px 30px;
+
+
+}
+nav ul li a{
+	color: #FFC300;
+	text-decoration:none;  
+	font-size:20px;
+	font-weight: bold;
+
+
+}
+
+nav ul li a:hover{
+	color:#000;
+}
+.main{
+	max-width:100%;
+	height: 100px;
+}
+.flex-container{
+    flex-direction: left;
+
+}
+.main .flex-container .flex-items h5{
+	border: 1px solid gray;
+	border-radius: 2px;
+	box-shadow: 5px 5px 5px darkgray;
+	text-align: center;
+	color: black;
+	width: 300px;
+	height: 300px;
+	margin-top: 600px;
+	margin-left: 50px;
+	padding: 5px;
+	display: inline-flex;
+}
+.main .flex-container .flex-items1 h5{
+	border: 1px solid gray;
+	border-radius: 2px;
+	box-shadow: 5px 5px 5px darkgray;
+	text-align: center;
+	color: black;
+	width: 300px;
+	height: 300px;
+	margin-top: 100px;
+	margin-left: 200px;
+	display: inline-flex;
+}
+
+.main .flex-container .flex-items1 a{
+	border: 1px solid gray;
+	border-radius: 2px;
+	box-shadow: 5px 5px 5px darkgray;
+	text-align: center;
+	color: black;
+	width: 300px;
+	height: 300px;
+	margin-top: 100px;
+	margin-left: 200px;
+	display: inline-flex;
+
+}
+/*metal health*/
+.female4{
+	padding: 100px 0;
+	margin-top: 500px;
+	background-size: cover;
+
+}
+.female4 h1{
+	text-align: center;
+	padding-bottom: 15px;
+	font-size: 50px;
+	color: #16DAB0;
+	margin-top: 50px;
+	margin-left: 5px;
+
+}
+.slider1{
+	width:100%;
+	height: 100px;
+	margin-top:5px;
+
+
+}
+.box1{
+	width: 100%;
+	height: 500px;
+	margin-top: 25px;
+	position: absolute;
+	background-color: white;
+
+}
+/*.prev{
+	float: right;
+	margin-top: 230px;
+	padding: 13px;
+	color: solid #16DAB0;
+	border-radius: 50%;
+	margin-right: 25px;
+	border:2px solid #000;
+	background-color: #16DAB0;
+	font-size: 25px;
+	cursor: pointer;
+}*/
+/*.next{
+	float: left;
+	margin-top: 230px;
+	padding: 15px;
+	color: solid #16DAB0;
+	border-radius: 50%;
+	margin-left: 40px;
+	border:2px solid #000;
+	background-color: #16DAB0;
+	font-size: 25px;
+	cursor: pointer;
+}*/
+.b2{
+	float: left;
+	margin-top: 50px;
+	margin-left: 80px;
+	background-color: #fff;
+	position: relative;
+	border:5px #16DAB0 solid;
+
+}
+
+.b3{
+	float: left;
+	margin-top: 50px;
+	margin-left: 110px;
+	background-color: #fff;
+	position: relative;
+	border:5px #16DAB0 solid;
+
+}
+
+.b4{
+	float: left;
+	margin-top: 300px;
+	margin-left: 220px;
+	background-color: #fff;
+	position: relative;
+	border:5px #16DAB0 solid;
+
+
+}
+
+.b5{
+	float: left;
+	margin-top:-200px;
+	margin-left: 600px;
+	background-color: #fff;
+	position: relative;
+	border:5px #16DAB0 solid;
+
+}
+/*.b2 img{
+	width:350px;
+	margin:0;
+	height: 400px;
+	cursor: pointer;
+}
+
+.b3 img{
+	width:350px;
+	cursor: pointer;
+	margin:0;
+	height: 400px;
+}
+
+.b4 img{
+	width:350px;
+	margin:0;
+	height: 400px;
+	cursor: pointer;
+
+}
+.b5 img{
+	width:350px;
+	cursor: pointer;
+	margin:0;
+	height: 400px;
+
+}*/
+.bb2{
+	background-color: white;
+	opacity: .8;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height:0;
+}
+
+.bb3{
+	background-color: white;
+    opacity: .8;
+    width:100%;         
+    position:absolute;
+    bottom:0; 
+    height:0;
+}
+
+.bb4{
+	background-color: white;
+    opacity: .8;
+    width:100%;         
+    position:absolute;
+    bottom:0; 
+    height:0;
+}
+
+.bb5{
+	background-color: white;
+    opacity: .8;
+    width:100%;         
+    position:absolute;
+    bottom:0; 
+    height:0;
+}
+.b2:hover .bb2{
+	height:100%;
+    transition: all ease-in-out 1s;
+}
+
+.b3:hover .bb3{
+	height:100%;
+    transition: all ease-in-out 1s;
+}
+
+.b4:hover .bb4{
+	height:100%;
+    transition: all ease-in-out 1s;
+}
+
+.b5:hover .bb5{
+	height:100%;
+    transition: all ease-in-out 1s;
+}
+
+
+.b1{
+	
+	float: left;
+	margin-top: 50px;
+	margin-left: 55px;
+	background-color: #fff;
+	position: relative;
+	border:5px #16DAB0 solid;
+
+}
+.bb1{
+	background-color: white;
+	opacity: .8;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height:0;
+
+}
+.b1:hover .bb1{
+	height:100%;
+    transition: all ease-in-out 1s;
+}
+
